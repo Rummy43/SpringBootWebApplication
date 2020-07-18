@@ -1,0 +1,40 @@
+a:hover,a:focus{
+    text-decoration: none;
+    outline: none;
+}
+.nav-tabs{
+    border-bottom:none;
+    margin-bottom:25px;
+}
+.nav-tabs > li{
+    border-bottom:none;
+    margin-right:10px;
+}
+.nav-tabs > li > a{
+    background:rgba(171, 171, 171,0.7);
+    padding: 10px 25px;
+    border-radius: 4px;
+    color:#fff;
+    border-bottom:1px solid #adadad;
+     transition:all 0.3s ease 0s;
+}
+.nav-tabs > li > a:hover{
+    background:#ababab;
+    border-bottom: 1px solid #ababab;
+}
+.nav-tabs > li > a > i{
+    margin-right: 7px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    background: #e74c3c;
+    color: #fff;
+    border-bottom:1px solid #e74c3c;
+}
+.tab-content h4{
+    font-weight: 600;
+}
+.tab-content p{
+    color: #717171;
+}
